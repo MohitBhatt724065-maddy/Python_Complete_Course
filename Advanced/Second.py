@@ -6,9 +6,9 @@ class Students:
         self.age = age
         
     def details(self):
-        return f"{self.name} is {self.age} years old."
+        return f"{self.name} is {self.age} years old." # This will only return the value but not actually print.
         
 s1 = Students()
 s2 = Students("John", 20)
-print(s1.details())
-print(s2.details())
+print(s1.details()) 
+print(s2.details()) # Using print statement explicitly toprint the details.
