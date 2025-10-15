@@ -11,4 +11,4 @@ class Students:
 s1 = Students()
 s2 = Students("John", 20)
 print(s1.details()) 
-print(s2.details()) # Using print statement explicitly toprint the details.
+print(s2.details()) # Using print statement explicitly to print the details.
